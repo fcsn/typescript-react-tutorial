@@ -22,7 +22,7 @@ class TodoList extends React.Component<Props, State> {
 
   state: State = {
     todoItems: [],
-    input: '',
+    input: ''
   };
 
   onToggle = (id: number): void => {
